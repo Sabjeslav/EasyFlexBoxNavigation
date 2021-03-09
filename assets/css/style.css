@@ -36,6 +36,10 @@
       -ms-flex-positive: 3;
           flex-grow: 3;
   text-transform: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .navbar-content {
@@ -98,7 +102,7 @@
   color: #000;
 }
 
-.navbar .hamburger {
+.navbar .hamburger, .navbar .divider {
   display: none;
 }
 
@@ -204,6 +208,13 @@ main {
   .navbar .hamburger-active span:nth-child(3) {
     -webkit-transform: translateY(3px) rotate(135deg);
             transform: translateY(3px) rotate(135deg);
+  }
+  .navbar .divider {
+    display: block;
+    background-color: #fff;
+    height: 2px;
+    width: 50%;
+    margin-top: 20px;
   }
 }
 
