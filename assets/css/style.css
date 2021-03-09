@@ -198,6 +198,8 @@ main {
   }
   .navbar .hamburger-active span:nth-child(2) {
     width: 0;
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
   }
   .navbar .hamburger-active span:nth-child(3) {
     -webkit-transform: translateY(3px) rotate(135deg);
