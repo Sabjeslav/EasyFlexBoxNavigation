@@ -54,7 +54,7 @@
           flex-grow: 3;
 }
 
-.navbar-content-item a {
+.navbar-content-item-link {
   font-weight: 600;
   font-size: 20px;
 }
@@ -88,7 +88,7 @@
   text-align: right;
 }
 
-.navbar-btn a {
+.navbar-btn-link {
   font-weight: 500;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -97,7 +97,7 @@
   transition: .3s all;
 }
 
-.navbar-btn a:hover {
+.navbar-btn-link:hover {
   background-color: #fff;
   color: #000;
 }
@@ -120,10 +120,10 @@ main {
   .navbar-logo {
     font-size: 25px;
   }
-  .navbar-btn a {
+  .navbar-btn-link {
     padding: 10px 15px;
   }
-  .navbar-content a {
+  .navbar-content-item-link {
     font-size: 17px;
   }
   main {
@@ -157,7 +157,7 @@ main {
   .navbar-content-item {
     line-height: 50px;
   }
-  .navbar-content-item a {
+  .navbar-content-item-link {
     font-size: 30px;
   }
   .navbar-content-item + .navbar-content-item {
