@@ -106,7 +106,7 @@ main {
   width: 100%;
   height: 100vh;
   margin-top: 70px;
-  background: url("../images/bg.jpg") center/cover no-repeat;
+  background: url("https://images5.alphacoders.com/514/514509.jpg") center/cover no-repeat;
 }
 
 @media (max-width: 991px) {
@@ -121,6 +121,9 @@ main {
   }
   .navbar-content a {
     font-size: 17px;
+  }
+  main {
+    margin-top: 65px;
   }
 }
 
